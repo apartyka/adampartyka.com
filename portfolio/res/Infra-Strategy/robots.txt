@@ -1,0 +1,13 @@
+User-agent: * 
+Disallow: /aspnet_client
+Disallow: /cafepress
+Disallow: /cc-suggenstion-box
+Disallow: /contentrequest
+Disallow: /css
+Disallow: /dev
+Disallow: /images
+Disallow: /InternalApps
+Disallow: /js
+Disallow: /scripts
+Disallow: /suggenstion-box
+sitemap: http://www.infra-strategy.com/SiteMap.xml

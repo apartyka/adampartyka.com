@@ -1,0 +1,504 @@
+/* infra::strategy 2.0  author: Adam Partyka, 4-10-2008 */
+/* Last updated on 12-4-2008 added styles to sitemap lists */
+
+/* Body Styles */
+body {
+  background: #e6dccd url(../images/bg.jpg) center top no-repeat;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 12px;
+  line-height: 15px;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #fff;
+  font-size: 32px;
+  padding: 17px 0 10px 42px;
+  line-height: 33px;
+  letter-spacing: 1px;
+}
+
+h3 {
+  color: #5c2f2c;
+  font-size: 18px;
+  padding: 0 0 0 42px;
+  line-height: 23px;
+  text-decoration: underline;
+  margin: 10px 0 5px;
+}
+
+h4 {
+  color: #5c2f2c;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 0 0 0 42px;
+  margin: 10px 0 0 0;
+}
+
+p {
+  padding: 0 45px 13px 42px;
+}
+
+li {
+  padding: 0 0 10px 0;
+}
+
+strong {
+  color: #c03747;
+}
+
+a {
+  color: #fff;
+  text-decoration: underline;
+  background: transparent;
+}
+
+a:hover {
+  text-decoration: none;
+  background: #ccc;
+}
+
+a:active, a:focus {
+  outline: none;
+}
+
+#wrap {
+  margin: 0 auto;
+  width: 775px;
+}
+
+#header {
+  height: 283px;
+  background:url(../images/header.jpg) no-repeat top left;
+}
+
+#header address {
+  display: none;
+}
+
+#header h1 {
+  float: left;
+  padding: 179px 0 0 115px;
+}
+
+#header h1 a {
+  width: 576px;
+  height: 89px;
+  display: block;
+  text-indent: -9999px;
+  background: transparent;
+}
+
+/* Navigation */
+#nav {
+  width: 340px;
+  height: 180px;
+  float: right;
+}	
+
+	#about-us {
+	  position: relative;
+	  top: 13px;
+	  left: 14px;
+	  width: 91px;
+	  height: 26px;
+	  background: transparent url(../images/about-us.gif) left top no-repeat;
+	}
+	
+		#about-us a {
+	  	  display: block;
+	 	  width: 91px;
+	  	  height: 26px;
+	  	  text-indent: -9999px;
+	  	  background: transparent;
+		}
+	
+			#about-us a:hover {
+			  width: 91px;
+			  height: 26px;
+			  background: transparent url(../images/about-us-over.gif) left top no-repeat;
+			}
+	
+			#about-us a.active {
+			  width: 91px;
+			  height: 26px;
+			  background: transparent url(../images/about-us-over.gif) left top no-repeat;
+			}
+			
+	#what {
+	  position: relative;
+	  top: 39px;
+	  left: 64px;
+	  width: 99px;
+	  height: 21px;
+	  background: transparent url(../images/what.jpg) left top no-repeat;
+	}
+	
+		#what a {
+		  display: block;
+		  width: 99px;
+		  height: 21px;
+		  text-indent: -9999px;
+		  background: transparent;
+		}
+		
+			#what a:hover {
+			  width: 99px;
+			  height: 21px;
+			  background: transparent url(../images/what-over.jpg) left top no-repeat;
+			}
+			
+		    #what a.active {
+			  width: 99px;
+			  height: 21px;
+			  background: transparent url(../images/what-over.jpg) left top no-repeat;
+			}
+	
+	#where {
+	  position: relative;
+	  top: 84px;
+	  left: 130px;
+	  width: 76px;
+	  height: 28px;
+	  background: transparent url(../images/where.jpg) left top no-repeat;
+	}
+	
+		#where a {
+		  display: block;
+		  width: 76px;
+		  height: 28px;
+		  text-indent: -9999px;
+		  background: transparent;
+		}
+		
+			#where a:hover {
+			  width: 76px;
+			  height: 28px;
+			  background: transparent url(../images/where-over.jpg) left top no-repeat;
+			}
+			
+			#where a.active {
+			  width: 76px;
+			  height: 28px;
+			  background: transparent url(../images/where-over.jpg) left top no-repeat;
+			}
+	
+	#join {
+	  position: relative;
+	  top: 40px;
+	  left: 276px;
+	  width: 55px;
+	  height: 20px;
+	  background: transparent url(../images/join.jpg) left top no-repeat;
+	}
+	
+		#join a {
+		  display: block;
+		  width: 55px;
+		  height: 20px;
+		  text-indent: -9999px;
+		  background: transparent;
+		}
+		
+			#join a:hover {
+			  width: 55px;
+			  height: 20px;
+			  background: transparent url(../images/join-over.jpg) left top no-repeat;
+			}
+			
+			#join a.active {
+			  width: 55px;
+			  height: 20px;
+			  background: transparent url(../images/join-over.jpg) left top no-repeat;
+			}
+
+/* Short content */
+#content-short-wrap {
+  background: transparent url(../images/content-short-wrap.jpg) center top no-repeat;
+}
+
+	#content-short, #content-short-profiles {
+	  background: #c49c7f url(../images/content-short-bg.jpg) center top no-repeat;
+	  width: 743px;
+	  height: 330px;
+	  margin: 0 0 0 19px;
+	}
+
+		.dropcap {
+		  float: left;
+		  color: #fab449;
+		  font-size: 55px;
+		  line-height: 43px;
+		}
+	
+/* Long content */
+#content-long-wrap {
+  background: transparent url(../images/content-long-wrap.jpg) center top no-repeat;
+}
+
+	#content-long, #content-long-profiles {
+	  background: #c49c7f url(../images/content-long-bg.jpg) center top no-repeat;
+	  width: 743px;
+	  margin: 0 0 0 19px;
+	}
+	
+	/* Content lists */
+	#content-long ol {
+ 	 padding: 0 55px 15px 75px;
+	}
+	
+		#content-long ol li h4 {
+		 padding: 0;
+		 color: #5c2f2c;
+		}
+			
+	#content-short ul, #content-long ul {
+ 	 padding: 0 55px 10px 75px;
+	}
+	
+	/* List style for social icons on profiles.html */
+	#content-short-profiles h3, #content-long-profiles h3 {
+	  float: left;
+	  display: block;
+	  width: 186px;
+	  padding: 0 0 0 42px;
+	  margin: 0 0 5px 0;
+ 	  line-height: 23px;
+	}
+	
+	#content-short-profiles h3.noSocial, #content-long-profiles h3.noSocial {
+	  float: left;
+	  display: block;
+	  width: 330px;
+	  padding: 0 0 0 42px;
+	  margin: 0 0 5px 0;
+ 	  line-height: 23px;
+	}
+	
+	#content-short-profiles div#socialIcons, #content-long-profiles div#socialIcons {
+	  float: left;
+	  width: 150px;
+ 	  padding: 0 0 5px 5px;
+	  height: 46px;
+    }
+	
+	#content-short-profiles a.feed, #content-long-profiles a.feed {
+	  float: left;
+	  display: block;
+	  width: 24px;
+	  height: 24px;
+	  margin: 0 5px 0 0;
+	  background: transparent url(../images/feed-24x24.png) center no-repeat;
+	}
+	
+	#content-short-profiles a.twitter, #content-long-profiles a.twitter {
+	  float: left;
+	  display: block;
+	  width: 24px;
+	  height: 24px;
+	  margin: 0 5px 0 0;
+	  background: transparent url(../images/twitter-24x24.png) center no-repeat;
+	}
+	
+	#content-short-profiles a.linkedin, #content-long-profiles a.linkedin {
+	  float: left;
+	  display: block;
+	  width: 24px;
+	  height: 24px;
+	  margin: 0 5px 0 0;
+	  background: transparent url(../images/linkedin-24x24.png) center no-repeat;
+	}
+	
+	#content-short-profiles a.tumblr, #content-long-profiles a.tumblr {
+	  float: left;
+	  display: block;
+	  width: 24px;
+	  height: 24px;
+	  margin: 0 5px 0 0;
+	  background: transparent url(../images/tumblr-24x24.png) center no-repeat;
+	}
+	
+	/* ------------------------ */	
+		
+		#content-long ul li h4 {
+		 padding: 0;
+		 color: #5c2f2c;
+		}
+		
+		#content-short ul li a, #content-long ul li a {
+ 	 	  padding: 0;
+		  color: #5c2f2c;
+		  font-size: 16px;
+		  line-height: 20px;
+		}
+		
+/* Profile Pictures */
+span#ed {
+  float: left;
+  background: url(../images/ed.gif) top left no-repeat;
+  width: 93px;
+  height: 109px;
+  margin: 5px 11px 0 1px;
+  display: block;
+}
+	
+span#kevin {
+  float: left;
+  background: url(../images/kevin.gif) top left no-repeat;
+  width: 93px;
+  height: 109px;
+  margin: 5px 11px 0 1px;
+  display: block;
+}
+	
+/* Pod Styles */
+#pods-content-short {
+  background: transparent url(../images/pod-bg.jpg) center top no-repeat;
+  height: 287px;
+}
+
+#pods-content-long {
+  background: transparent url(../images/pod-bg2.png) center top no-repeat;
+  height: 288px;
+}
+
+    /* Pod - Left */
+	#left {
+	  float: left;
+	  width: 263px;
+	  height: 286px;
+	}
+
+		#pods-content-short #left h2, #pods-content-long #left h2 {
+		  color: #c03747;
+		  padding: 20px 0 45px 25px;
+		}
+		
+		#pods-content-short #left a, #pods-content-long #left a {
+		  float: right;
+		  color: #c03747;
+		  margin: 0 25px 0 0;
+		}
+		
+		#pods-content-short #left a:hover, #pods-content-long #left a:hover {
+		  background: transparent;
+		  text-decoration: none;
+		}
+			
+		#pods-content-short #left a.taLogo, #pods-content-long #left a.taLogo {
+		  color: #c03747;
+		  background: transparent url(../images/TA-logo-new.png) top left no-repeat;
+		  display: block;
+		  width: 200px;
+		  height: 40px;
+		  text-indent: -9999px;
+		}
+		
+		#pods-content-short #left a.taLogo:hover, #pods-content-long #left a.taLogo:hover {
+		  background: transparent url(../images/TA-logo-new.png) top left no-repeat;
+		}
+					
+	/* Pod - Center */
+	#center {
+	  float: left;
+	  text-align: center;
+	  width: 212px;
+	  height: 286px;
+
+	}
+
+		#pods-content-short #center h2, #pods-content-long #center h2 {
+		  color: #c03747;
+		  padding: 30px 0 10px 3px;
+		}
+		
+		#pods-content-short #center ul, #pods-content-long #center ul {
+		  color: #000;
+		  list-style: none;
+		  width: 180px;
+		  margin: 0 auto;
+		}
+		
+		#pods-content-short #center ul li, #pods-content-long #center ul li {
+	      margin: 0 0 10px 0;
+		}
+	
+		#pods-content-short #center a, #pods-content-long #center a {
+		  color: #c03747;
+		}
+	
+			#pods-content-short #center a:hover, #pods-content-long #center a:hover {
+			  background: transparent;
+			  text-decoration: none;
+			}
+			
+	/* Pod - Right */
+	#right {
+	  float: left;
+	  text-align: right;
+	  width: 255px;
+	  height: 286px;
+	}
+
+		#pods-content-short #right h2, #pods-content-long #right h2 {
+		  color: #c03747;
+		  padding: 40px 0 10px;
+		}
+		
+		#pods-content-short #right ul, #pods-content-long #right ul {
+		  float: right;
+		  color: #000;
+		  list-style: none;
+		  width: 228px;
+		}
+		
+		#pods-content-short #right ul li, #pods-content-long #right ul li {
+	      margin: 0 0 10px 0;
+		}
+	
+		#pods-content-short #right a, #pods-content-long #right a {
+		  color: #c03747;
+		}
+	
+			#pods-content-short #right a:hover, #pods-content-long #right a:hover {
+			  background: transparent;
+			  text-decoration: none;
+			}
+
+/* Footers */
+#footer {
+  background: transparent url(../images/footer-bg.jpg) center top no-repeat;
+  height: 285px;
+}
+	#footer-links ul {
+	  list-style: none;
+	  position: relative;
+	  top: 100px;
+	  left: 20px;
+	}
+	
+		#footer-links ul li {
+		  padding: 0 0 17px 0;
+		}
+		
+		#footer-links ul li a {
+		  color: #653935;
+		}
+
+	#footer h2 {
+	  display: none;
+	}
+
+#footer-content-long {
+  background: transparent url(../images/footer-bg2.png) center top no-repeat;
+  height: 285px;
+}
+
+	#footer-content-long h2 {
+	  display: none;
+	}
