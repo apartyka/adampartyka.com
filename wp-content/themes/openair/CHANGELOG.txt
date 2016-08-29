@@ -1,0 +1,25 @@
+CHANGELOG
+
+1.1.4	  - changed header file to include wp_enqueue_script()
+		  - changed comment file for new 2.7 commenting
+		  - added legacy comment file
+		  - fixed ol styling
+		  - removed spacer divs and replaced with br in post div
+		
+1.1.6   - fixed issues with functions.php
+          - changed the post date (in the cloud) so it links to the month and
+		    year archives
+		  
+1.1.7   - fixed problems with legacy comments and < WP2.7
+
+1.2.3   - fixed error in post.php with month cloud and link to month archives
+
+1.3.0   - added in support for third column - this adds a second sidebar, added
+            dynamic keywords in functions.php file for SEO purposes
+		  
+1.3.1   - added support in theme options for avatar position left/right in comments
+          - fixed incorrect layouts, removed jquery and placed in php instead
+		  
+1.3.2   - fixes issues with the sidebars
+          - fixes permalink issues with month/year archives in posts
+		  - updated search results/no search results page
